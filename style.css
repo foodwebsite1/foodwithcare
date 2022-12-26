@@ -441,6 +441,40 @@ header .navbar a:hover{
   background:var(--red);
 }
 
+.Payments .row{
+  padding:2rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  background:#fff;
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  bPayments-radius: .5rem;
+}
+
+.Payments .row .image{
+  flex:1 1 30rem;
+}
+
+.Payments .row .image img{
+  height: 100%;
+  width:100%;
+  object-fit: cover;
+  bPayments-radius: .5rem;
+}
+.Payments .row .form{
+  flex:1 1 40rem;
+  padding-top: 6.5rem;
+  font-size: 1.7rem;
+  color:#666;
+  padding:1rem 0;
+}
+.Payments .row form .btn{
+  background:none;
+}
+
+.Payments .row form .btn:hover{
+  background:var(--red);
+}
 .footer{
   background:#000;
   text-align: center;
